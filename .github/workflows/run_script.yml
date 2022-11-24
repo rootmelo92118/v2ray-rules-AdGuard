@@ -37,3 +37,4 @@ jobs:
           python3 GenerateAndConvert.py
           mv AdGuard_Rule ../
           cd ../ && rm -rf workspace
+          rm AdGuard_Rule/dlc.dat
