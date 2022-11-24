@@ -35,5 +35,5 @@ jobs:
           curl -OL https://raw.githubusercontent.com/rootmelo92118/v2ray-rules-adguard/master/GenerateAndConvert.py
           mkdir AdGuard_Rule
           python3 GenerateAndConvert.py
-          mv Adguard_Rule ../
+          mv AdGuard_Rule ../
           cd ../ && rm -rf workspace
