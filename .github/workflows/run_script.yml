@@ -11,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout codebase
+      - name: Checkout v2fly/domain-list-community
         uses: actions/checkout@v3
         with:
-          path: workspace
+          repository: v2fly/domain-list-community
+          path: community
       - name: Setup Go
         uses: actions/setup-go@v3
         with:
