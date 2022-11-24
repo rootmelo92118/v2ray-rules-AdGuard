@@ -31,9 +31,9 @@ jobs:
         shell: bash
       - name: Generate plaintext and Convert to rules
         run: |
+          
           cd workspace || exit 1
           ls
-          ls ..
           mkdir AdGuard_Rule
           python3 GenerateAndConvert.py
           mv Adguard_Rule ../
