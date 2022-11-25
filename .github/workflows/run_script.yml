@@ -48,6 +48,7 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
+          rm -rf .git
       - name: Generate Zip
         run: |
           zip -9 -r Package.zip AdGuard_Rule
