@@ -9,16 +9,16 @@ def dataProcesser(domain_datas):
     for domainData in domain_datas:
         if "domain" == domainData[0]:
             exportData = exportData + "||" + domainData[1] + "^\n"
-            domain += 1
+            domainNum += 1
         elif "full" == domainData[0]:
             exportData = exportData + "/^" + domainData[1].replace(".","\.") + "$/\n"
-            full += 1
+            fullNum += 1
         elif "keywod" == domainData[0]:
             exportData = exportData + "/.+" + domainData[1] + ".+/\n"
-            keyword += 1
+            keywordNum += 1
         elif "regexp" == domainData[0]:
             exportData = exportData + "/" + domainData[1] + "/\n"
-            regexp += 1
+            regexpNum += 1
     exportData = exportData.strip("\n")
     return [exportData,domainNum,fullNum,keywordNum,regexpNum]
 
