@@ -1,5 +1,27 @@
 import os
 
+def dataProcesser(domain_datas):
+    exportData = ""
+    domain = 0
+    full = 0
+    keyword = 0
+    regexp = 0
+    for domainData in domain_datas:
+        if "domain" == domainData[0]:
+            exportData = exportData + "||" + domainData[1] + "^\n"
+            domain += 1
+        elif "full" == domainData[0]:
+            exportData = exportData + "/^" + domainData[1].replace(".","\.") + "$/\n"
+            full += 1
+        elif "keywod" == domainData[0]:
+            exportData = exportData + "/.+" + domainData[1] + ".+/\n"
+            keyword += 1
+        elif "regexp" == domainData[0]:
+            exportData = exportData + "/" + domainData[1] + "/\n"
+            regexp += 1
+    exportData = exportData.strip("\n")
+    return [exportData,domain,full,keyword,regexp]
+
 def run():
     sourceDir = os.listdir("./data")
     exportList = ""
@@ -17,21 +39,12 @@ def run():
         processingData = []
         for rawDomain in rawData:
             processingData.append(rawDomain.strip("\n").split(":"))
-        exportData = ""
-        for domainData in processingData:
-            if "domain" == domainData[0]:
-                exportData = exportData + "||" + domainData[1] + "^\n"
-            elif "full" == domainData[0]:
-                exportData = exportData + "/^" + domainData[1].replace(".","\.") + "$/\n"
-            elif "keywod" == domainData[0]:
-                exportData = exportData + "/.+" + domainData[1] + ".+/\n"
-            elif "regexp" == domainData[0]:
-                exportData = exportData + "/" + domainData[1] + "/\n"
-        exportData = exportData.strip("\n")
+        exportData = dataProcesser(processingData)
+        description = "# Source: https://github.com/v2fly/domain-list-community/blob/master/data/" + i + "\n" + "! domain: " + str(exportData[1]) + "\n" + "! full: " + str(exportData[2]) + "\n" + "! keyword: " + str(exportData[3]) + "\n" + "! regexp: " + str(exportData[4]) + "\n\n\n"
         with open("./AdGuard_Rule/" + i + ".txt","w") as f:
-            f.write(exportData)
+            f.write(description + exportData[0])
             f.close()
-        print(i+" has been converted.")
+        print( i + " has been converted.")
 
     
 
