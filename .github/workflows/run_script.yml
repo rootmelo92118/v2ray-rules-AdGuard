@@ -1,5 +1,8 @@
 name: Convert V2Ray rules to AdGuard rules
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 21 * * *"
   push:
     branches:
       - master
