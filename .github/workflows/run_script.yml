@@ -9,7 +9,6 @@ jobs:
   build:
     name: Build and Convert
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout v2fly/domain-list-community
         uses: actions/checkout@v3
@@ -40,6 +39,7 @@ jobs:
           rm AdGuard_Rule/dlc.dat
       - name: Git push assets to "release" branch
         run: |
+          cd AdGuard_Rule
           git init
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
