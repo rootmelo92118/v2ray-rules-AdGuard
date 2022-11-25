@@ -2,10 +2,10 @@ import os
 
 def dataProcesser(domain_datas):
     exportData = ""
-    domain = 0
-    full = 0
-    keyword = 0
-    regexp = 0
+    domainNum = 0
+    fullNum = 0
+    keywordNum = 0
+    regexpNum = 0
     for domainData in domain_datas:
         if "domain" == domainData[0]:
             exportData = exportData + "||" + domainData[1] + "^\n"
@@ -20,7 +20,7 @@ def dataProcesser(domain_datas):
             exportData = exportData + "/" + domainData[1] + "/\n"
             regexp += 1
     exportData = exportData.strip("\n")
-    return [exportData,domain,full,keyword,regexp]
+    return [exportData,domainNum,fullNum,keywordNum,regexpNum]
 
 def run():
     sourceDir = os.listdir("./data")
