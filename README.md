@@ -1,3 +1,4 @@
-# v2ray-rules-adguard
+# v2ray-rules-AdGuard
 
-近幾天我就會生出makedown
+## 致謝
+- [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
