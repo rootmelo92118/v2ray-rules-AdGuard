@@ -45,6 +45,7 @@ def run(source="./data", output="./AdGuard_Rule"):
             f.write(description + exportData[0])
             f.close()
         print( i + " has been converted.")
+    print("All jobs have been done successfully.")
 
     
 
