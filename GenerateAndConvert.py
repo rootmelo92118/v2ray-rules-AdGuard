@@ -33,6 +33,7 @@ def run(source="./data", output="./AdGuard_Rule"):
     os.system("go run ./ --outputdir=" + output + " --exportlists=" + exportList)
     print("\n\n")
     for i in sourceDir:
+        i = i.lower()
         with open(output + "/" + i + ".txt","r") as f:
             rawData = f.readlines()
             f.close()
