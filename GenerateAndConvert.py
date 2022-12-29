@@ -14,7 +14,7 @@ def dataProcesser(domain_datas):
             exportData = exportData + "|" + domainData[1] + "^\n"
             fullNum += 1
         elif "keywod" == domainData[0]:
-            exportData = exportData + "/.+" + domainData[1] + ".+/\n"
+            exportData = exportData + "/.*" + domainData[1] + ".*/\n"
             keywordNum += 1
         elif "regexp" == domainData[0]:
             exportData = exportData + "/" + domainData[1] + "/\n"
