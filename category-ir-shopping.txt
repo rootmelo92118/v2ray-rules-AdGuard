@@ -1,0 +1,16 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-ir-shopping
+! domain: 9
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||digi-kala.com^
+||digikala.com^
+||divar.ir^
+||emalls.ir^
+||esam.ir^
+||sheypoor.com^
+||snappfood.ir^
+||torob.com^
+||zanbil.ir^

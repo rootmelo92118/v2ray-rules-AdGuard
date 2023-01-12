@@ -1,0 +1,19 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-ir-payment
+! domain: 12
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||asanpardakht.com^
+||asanpardakht.net^
+||behpardakht.com^
+||iranicard.ir^
+||mydigipay.com^
+||payping.ir^
+||pec.ir^
+||pep.co.ir^
+||sadadpsp.ir^
+||sep.ir^
+||shaparak.ir^
+||zarinpal.ir^

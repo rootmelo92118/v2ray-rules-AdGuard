@@ -1,0 +1,12 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-ir-scholar
+! domain: 5
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||ac.ir^
+||edu.ir^
+||jtt.ir^
+||sharif.ir^
+||srttu.edu^

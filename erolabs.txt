@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/erolabs
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||ero-labs.com^
+||ero-labs.net^
+||ero-labs.online^
+||ero-labs.site^
+||erolabs.cloud^
+||erolabs.com^
+||erolabs.game^
+||erolabs.net^

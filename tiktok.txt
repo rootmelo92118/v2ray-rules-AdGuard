@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/tiktok
+! domain: 7
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||byteoversea.com^
+||muscdn.com^
+||musical.ly^
+||tik-tokapi.com^
+||tiktok.com^
+||tiktokcdn.com^
+||tiktokv.com^
+|p16-tiktokcdn-com.akamaized.net^

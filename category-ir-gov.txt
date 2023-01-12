@@ -1,0 +1,31 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-ir-gov
+! domain: 24
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||adliran.ir^
+||bazresi.ir^
+||bia-judiciary.ir^
+||budget.imo.org.ir^
+||dadiran.ir^
+||dadsara.ir^
+||dadsetani.ir^
+||divan-edalat.ir^
+||dmk.ir^
+||doe.ir^
+||dolat.ir^
+||eadl.ir^
+||gov.ir^
+||hadafmandi.ir^
+||intamedia.ir^
+||irimo.ir^
+||mporg.ir^
+||parliran.ir^
+||president.ir^
+||refahi.ir^
+||sahamedalat.ir^
+||samanese.ir^
+||sccr.ir^
+||shora-gc.ir^

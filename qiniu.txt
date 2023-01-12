@@ -1,0 +1,16 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/qiniu
+! domain: 9
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||staticfile.org^
+||qbox.me^
+||qiniu.com^
+||qiniucdn.com^
+||qiniudn.com^
+||qiniudns.com^
+||qiniup.com^
+||qnsdk.com^
+||qnssl.com^

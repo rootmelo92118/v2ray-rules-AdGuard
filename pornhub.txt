@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/pornhub
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||phncdn.com^
+||phprcdn.com^
+||porngub.com^
+||pornhub-deutsch.net^
+||pornhubapparel.com^
+||pornhub.com^
+||pornhub.org^
+||pornhubpremium.com^

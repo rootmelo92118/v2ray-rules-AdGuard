@@ -1,0 +1,26 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/mozilla
+! domain: 15
+! full: 4
+! keyword: 0
+! regexp: 0
+
+
+||firefox.com^
+||firefoxusercontent.com^
+|developer.mozilla.org^
+|interactive-examples.mdn.mozilla.net^
+|mdn.mozillademos.org^
+|media.prod.mdn.mozit.cloud^
+||rust-lang.org^
+||rustup.rs^
+||crates.io^
+||docs.rs^
+||mozilla.com^
+||mozilla.community^
+||mozilla.net^
+||mozilla.org^
+||extensionworkshop.com^
+||bugzilla.org^
+||getpocket.com^
+||seamonkey-project.org^
+||thunderbird.net^

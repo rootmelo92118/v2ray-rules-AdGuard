@@ -1,0 +1,27 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/mihoyo
+! domain: 19
+! full: 0
+! keyword: 0
+! regexp: 1
+
+
+||genshinimpact.com^
+||honkaiimpact3.com^
+||honkaistarrail.com^
+||hoyo.link^
+||hoyolab.com^
+||hoyoverse.com^
+||n0vadesktop.com^
+||mhyurl.cn^
+||mihayo.com^
+||mihayou.com^
+||mihoyo.com^
+||mihoyocg.com^
+||mihoyogift.com^
+||mihoyomall.com^
+||miyoushe.com^
+||benghuai.com^
+||bh3.com^
+||themisweeps.com^
+||yuanshen.com^
+/^.+-mihayo\.akamaized\.net$/

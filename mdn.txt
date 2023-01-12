@@ -1,0 +1,11 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/mdn
+! domain: 0
+! full: 4
+! keyword: 0
+! regexp: 0
+
+
+|developer.mozilla.org^
+|interactive-examples.mdn.mozilla.net^
+|mdn.mozillademos.org^
+|media.prod.mdn.mozit.cloud^

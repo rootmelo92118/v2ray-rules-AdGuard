@@ -1,0 +1,17 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-browser-!cn
+! domain: 10
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||firefox.com^
+||firefoxusercontent.com^
+||chrome^
+||chrome.com^
+||chromium.org^
+||brave.com^
+||bromite.org^
+||opera.com^
+||vivaldi.com^
+||waterfox.net^
