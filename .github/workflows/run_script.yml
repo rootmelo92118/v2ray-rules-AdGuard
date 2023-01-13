@@ -30,6 +30,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "VERSION_NUMBER=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
       - name: Generate plaintext and Convert to rules
         run: |
@@ -68,6 +69,8 @@ jobs:
         with:
           tag_name: ${{ env.TAG_NAME }}
           release_name: ${{ env.RELEASE_NAME }}
+          body: |
+            Version :  ${{ env.VERSION_NUMBER }}
           draft: false
           prerelease: false
       - name: Upload Package.zip
