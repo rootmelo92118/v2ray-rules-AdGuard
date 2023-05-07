@@ -7,3 +7,6 @@ GitHub Actions於每日台北時間早上5點自動更新內容，保證規則�
 
 ## 致謝
 - [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
+
+## 關注數據
+[![Stargazers over time](https://starchart.cc/rootmelo92118/v2ray-rules-AdGuard.svg)](https://starchart.cc/rootmelo92118/v2ray-rules-AdGuard)
