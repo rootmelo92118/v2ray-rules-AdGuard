@@ -1,4 +1,6 @@
-import os,sys
+import os, sys, logging
+
+logger = logging.getLogger(__name__)
 
 def dataProcesser(domain_datas):
     exportData = ""
@@ -45,8 +47,8 @@ def main(source="./data", output="./AdGuard_Rule"):
         with open(output + "/" + i + ".txt","w") as f:
             f.write(description + exportData[0])
             f.close()
-        print( i + " has been converted.")
-    print("All jobs have been done successfully.")
+        logger.critical( i + " has been converted.")
+    logger.critical("All jobs have been done successfully.")
 
     
 
