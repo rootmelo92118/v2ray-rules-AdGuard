@@ -22,7 +22,7 @@ def dataProcesser(domain_datas):
     exportData = exportData.strip("\n")
     return [exportData,domainNum,fullNum,keywordNum,regexpNum]
 
-def run(source="./data", output="./AdGuard_Rule"):
+def main(source="./data", output="./AdGuard_Rule"):
     sourceDir = os.listdir(source)
     exportList = ""
     for i in range(0,len(sourceDir)):
@@ -51,4 +51,4 @@ def run(source="./data", output="./AdGuard_Rule"):
     
 
 if __name__ == '__main__':
-    run(sys.argv[1],sys.argv[2])
+    main(sys.argv[1],sys.argv[2])
