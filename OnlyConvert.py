@@ -31,7 +31,7 @@ def main(source="./faticensor.txt", output="./AdGuard_Rule"):
         processingData.append(rawDomain.strip("\n").split(":"))
     exportData = dataProcesser(processingData)
     description = "# It is the censorship list of Full Access To Internet." + i + "\n" + "! domain: " + str(exportData[1]) + "\n" + "! full: " + str(exportData[2]) + "\n" + "! keyword: " + str(exportData[3]) + "\n" + "! regexp: " + str(exportData[4]) + "\n\n\n"
-    with open(output + "/" + i + ".txt","w") as f:
+    with open(output + "/faticensor.txt","w") as f:
         f.write(description + exportData[0])
         f.close()
     print("All jobs have been done successfully.")
