@@ -32,7 +32,7 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
           echo "VERSION_NUMBER=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
-      - name: Generate plaintext and Convert to rules
+      - name: Generate plaintext and Convert to the rules of AdGuard format
         run: |
           cd workspace || exit 1
           curl -OL https://raw.githubusercontent.com/rootmelo92118/v2ray-rules-adguard/master/GenerateAndConvert.py
