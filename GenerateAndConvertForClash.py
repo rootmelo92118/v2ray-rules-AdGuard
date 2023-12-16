@@ -44,7 +44,8 @@ def main(source="./data", output="./clash_Rule_Set"):
         with open(output + "/" + i + ".yaml","w") as f:
             f.write(description + exportData[0])
             f.close()
-        print( i + " has been converted.")
+        print(i + " has been converted.")
+        os.remove(output + "/" + i + ".txt")
     print("All jobs have been done successfully.")
 
     
