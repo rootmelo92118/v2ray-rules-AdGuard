@@ -1,0 +1,19 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/linkedin
+! domain: 9
+! full: 3
+! keyword: 0
+! regexp: 0
+
+
+||bizographics.com^
+||l-0005.dc-msedge.net^
+||l-0005.l-msedge.net^
+||licdn.com^
+||linkedin.at^
+||linkedin.com^
+||lnkd.in^
+||licdn.cn^
+||linkedin.cn^
+|e122475.dscg.akamaiedge.net^
+|licdn.cn.cdn20.com^
+|linkedin.sc.omtrdc.net^
