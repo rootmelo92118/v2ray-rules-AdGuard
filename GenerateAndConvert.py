@@ -30,7 +30,7 @@ def main(source="./data", output="./AdGuard_Rule"):
             exportList = exportList + sourceDir[i]
         else:
             exportList = exportList + sourceDir[i] + ","
-    os.system("go run ./ --outputdir=" + output + " --exportlists=" + exportList)
+    os.system("go run ./ --datapath=" + source + " --outputdir=" + output + " --exportlists=" + exportList)
     print("\n\n")
     for i in sourceDir:
         i = i.lower()
