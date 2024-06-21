@@ -43,7 +43,7 @@ jobs:
           rm Clash_Rule/dlc.dat
       - name: Git push assets to "clash" branch
         run: |
-          cd AdGuard_Rule
+          cd Clash_Rule
           git init
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
