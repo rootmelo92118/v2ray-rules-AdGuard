@@ -1,0 +1,111 @@
+name: Convert V2Ray rules to Clash rules
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 21 * * *"
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
+jobs:
+  build:
+    name: Build and Convert
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v2fly/domain-list-community
+        uses: actions/checkout@v4
+        with:
+          repository: v2fly/domain-list-community
+          path: workspace
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: workspace/go.mod
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Set variables
+        run: |
+          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "VERSION_NUMBER=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        shell: bash
+      - name: Generate plaintext and Convert to the rules of Clash Rule-Set format
+        run: |
+          cd workspace || exit 1
+          curl -OL https://raw.githubusercontent.com/rootmelo92118/v2ray-rules-adguard/master/GenerateAndConvertForClash.py
+          mkdir Clash_Rule
+          python3 GenerateAndConvertForClash.py ./data ./Clash_Rule
+          mv Clash_Rule ../
+          cd ../ && rm -rf workspace
+          rm Clash_Rule/dlc.dat
+      - name: Git push assets to "clash" branch
+        run: |
+          cd AdGuard_Rule
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b clash
+          git add *.yaml
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin clash
+          rm -rf .git
+      - name: Generate Zip
+        run: |
+          zip -9 -r Package.zip Clash_Rule
+          sha256sum Package.zip > Package.zip.sha256sum
+      - name: Generate tar
+        run: |
+          tar -cvf Package.tar.gz Clash_Rule
+          sha256sum Package.tar.gz > Package.tar.gz.sha256sum
+      - name: Create a release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: ${{ env.RELEASE_NAME }}
+          body: |
+            Version :  ${{ env.VERSION_NUMBER }}
+          draft: false
+          prerelease: false
+      - name: Upload Package.zip
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Package.zip
+          asset_name: Package.zip
+          asset_content_type: application/octet-stream
+      - name: Upload Package.zip sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Package.zip.sha256sum
+          asset_name: Package.zip.sha256sum
+          asset_content_type: text/plain
+      - name: Upload Package.tar.gz
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Package.tar.gz
+          asset_name: Package.tar.gz
+          asset_content_type: application/octet-stream
+      - name: Upload Package.tar.gz sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Package.tar.gz.sha256sum
+          asset_name: Package.tar.gz.sha256sum
+          asset_content_type: text/plain
