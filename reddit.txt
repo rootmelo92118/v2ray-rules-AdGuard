@@ -1,0 +1,16 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/reddit
+! domain: 8
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||redd.it^
+||reddit.app.link^
+||reddit.com^
+||reddithelp.com^
+||redditmail.com^
+||redditmedia.com^
+||redditstatic.com^
+||redd.it^
+|reddit.map.fastly.net^
