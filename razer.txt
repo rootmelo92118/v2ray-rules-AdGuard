@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/razer
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||razer.com^
+||razerapi.com^
+||razerofficial.com^
+||razersynapse.com^
+||razersupport.com^
+||razerzone.com^
+||razerzone.jp^
+||respawnbyrazer.com^

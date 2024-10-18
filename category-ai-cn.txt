@@ -1,0 +1,26 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-ai-cn
+! domain: 19
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||rwkv.cn^
+||rwkv.com^
+||tongyi.aliyun.com^
+||qianwen.aliyun.com^
+||yiyan.baidu.com^
+||tiangong.cn^
+||doubao.com^
+||marscode.cn^
+||chatglm.cn^
+||zhipuai.cn^
+||moonshot.cn^
+||xinghuo.xfyun.cn^
+||hailuoai.com^
+||minimaxi.com^
+||xingyeai.com^
+||hunyuan.tencent.com^
+||baichuan-ai.com^
+||botvip.cn^
+||liblib.art^

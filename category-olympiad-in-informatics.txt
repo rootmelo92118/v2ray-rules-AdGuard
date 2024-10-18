@@ -1,0 +1,23 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-olympiad-in-informatics
+! domain: 16
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||leetcode.cn^
+||leetcode-cn.com^
+||lingkou.xyz^
+||lingkou.com^
+||lingkou.cn^
+||51nod.com^
+||acwing.com^
+||hihocoder.com^
+||jisuanke.com^
+||kidsccshow.com^
+||luogu.com.cn^
+||oi-wiki.com^
+||openjudge.cn^
+||rqnoj.cn^
+||uoj.ac^
+||vijos.org^
