@@ -1,0 +1,30 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/westerndigital
+! domain: 23
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||g-technology.com^
+||sandisk.ae^
+||sandisk.it^
+||sandisk.cn^
+||sandisk.co.jp^
+||sandisk.co.kr^
+||sandisk.co.uk^
+||sandisk.com^
+||sandisk.com.au^
+||sandisk.com.br^
+||sandisk.com.tr^
+||sandisk.com.tw^
+||sandisk.de^
+||sandisk.es^
+||sandisk.fr^
+||sandisk.hk^
+||sandisk.id^
+||sandisk.in^
+||sandisk.nl^
+||sandisk.sg^
+||wd.com^
+||wdc.com^
+||westerndigital.com^

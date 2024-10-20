@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/google-play
+! domain: 7
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||googleplay.com^
+||play-fe.googleapis.com^
+||play-games.googleusercontent.com^
+||play-lh.googleusercontent.com^
+||play.google.com^
+||play.googleapis.com^
+||xn--ngstr-lra8j.com^
+|redirector.c.play.google.com^
