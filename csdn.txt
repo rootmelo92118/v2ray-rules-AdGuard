@@ -1,0 +1,22 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/csdn
+! domain: 15
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||codechina.net^
+||csdn.com^
+||csdn.net^
+||csdn.net.cn^
+||csdnimg.cn^
+||csto.com^
+||datasea.cn^
+||gitbook.cn^
+||gitchat.cn^
+||gitcode.com^
+||gitcode.net^
+||iteye.com^
+||kaifayun.com^
+||programmer.com.cn^
+||programmer.net.cn^

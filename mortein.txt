@@ -1,0 +1,18 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/mortein
+! domain: 11
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||mortein.cn^
+||mortein.co.in^
+||mortein.co.nz^
+||mortein.co.za^
+||mortein.com^
+||mortein.com.au^
+||mortein.com.br^
+||mortein.com.ng^
+||mortein.com.pk^
+||morteincam.com^
+||pifpafarabia.com^

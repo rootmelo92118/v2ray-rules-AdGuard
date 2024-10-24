@@ -1,0 +1,23 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/ccb
+! domain: 16
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||ccb-life.com.cn^
+||ccb.cn^
+||ccb.com^
+||ccb.com.cn^
+||ccbcos.com^
+||ccbfund.cn^
+||ccbfund.com^
+||ccbfund.com.cn^
+||ccbfutures.cn^
+||ccbfutures.com^
+||ccbintl.com.hk^
+||ccbleasing.com^
+||ccblife-test.com.cn^
+||ccbseoul.com^
+||ccbtrust.com.cn^
+||ccbxt.com^

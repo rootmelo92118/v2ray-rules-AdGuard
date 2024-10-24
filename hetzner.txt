@@ -1,0 +1,18 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/hetzner
+! domain: 10
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||first-ns.de^
+||hetzner.cloud^
+||hetzner.com^
+||hetzner.company^
+||hetzner.de^
+||htznr.li^
+||second-ns.com^
+||second-ns.de^
+||your-objectstorage.com^
+||your-server.de^
+|sentry.hetzner.company^

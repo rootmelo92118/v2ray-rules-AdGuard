@@ -1,0 +1,14 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/viu
+! domain: 2
+! full: 4
+! keyword: 0
+! regexp: 1
+
+
+||viu.tv^
+|api.viu.now.com^
+/^ewcdn[0-9]{2}\.nowe\.com$/
+||viu.com^
+|dfp6rglgjqszk.cloudfront.net^
+|d1k2us671qcoau.cloudfront.net^
+|d2anahhhmp1ffz.cloudfront.net^

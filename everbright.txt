@@ -1,0 +1,22 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/everbright
+! domain: 15
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||cebbank.com^
+||ceblease.com^
+||eb-ind.com^
+||ebasset.com^
+||ebchina.com^
+||ebchinaintl.com^
+||ebf.com.cn^
+||ebfcn.com^
+||ebfortune.com^
+||ebtrust.com^
+||ebscn-am.com^
+||ebscn.com^
+||everbright.com^
+||secec.com^
+||sunlife-everbright.com^

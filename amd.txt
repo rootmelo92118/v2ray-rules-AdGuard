@@ -1,0 +1,12 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/amd
+! domain: 4
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||amd.com^
+||amd.com.cn^
+||amdfanstore.com^
+||radeon.com^
+|www.amd.com^

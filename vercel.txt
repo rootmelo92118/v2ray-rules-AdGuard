@@ -1,0 +1,31 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/vercel
+! domain: 24
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||err.sh^
+||hyper.is^
+||nextjs.org^
+||now.sh^
+||static.fun^
+||title.sh^
+||turborepo.org^
+||vercel-dns.com^
+||vercel-status.com^
+||vercel.app^
+||vercel.blog^
+||vercel.com^
+||vercel.events^
+||vercel.live^
+||vercel.pub^
+||vercel.sh^
+||vercel.store^
+||zeit-world.co.uk^
+||zeit-world.com^
+||zeit-world.net^
+||zeit-world.org^
+||zeit.co^
+||zeit.sh^
+||zeitworld.com^

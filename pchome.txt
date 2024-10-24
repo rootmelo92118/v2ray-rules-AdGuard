@@ -1,0 +1,20 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/pchome
+! domain: 11
+! full: 2
+! keyword: 0
+! regexp: 0
+
+
+||ecimg.tw^
+||pchome.com.tw^
+||pchomeec.tw^
+||pchomeonline.com.tw^
+||pchomepay.com.tw^
+||pcloud.tw^
+||pcstore.com.tw^
+||piapp.com.tw^
+||rakuya.com.tw^
+||tagapie.com.tw^
+||toget.com.tw^
+|ecapi-pchome.cdn.hinet.net^
+|pchomeonline.com.tw^

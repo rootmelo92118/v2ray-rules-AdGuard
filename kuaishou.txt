@@ -1,0 +1,17 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/kuaishou
+! domain: 8
+! full: 2
+! keyword: 0
+! regexp: 0
+
+
+||gifshow.com^
+||inkwai.com^
+||ksapisrv.com^
+||kuaishou.com^
+||kwaizt.com^
+||kuaishouzt.com^
+||kwimgs.com^
+||yximgs.com^
+|log-sdk.gifshow.com^
+|wlog.kuaishou.com^
