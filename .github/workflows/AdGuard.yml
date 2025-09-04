@@ -19,7 +19,7 @@ jobs:
           repository: v2fly/domain-list-community
           path: workspace
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: workspace/go.mod
       - name: Setup Python
