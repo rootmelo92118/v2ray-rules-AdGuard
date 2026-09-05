@@ -1,0 +1,33 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-collaborate-cn
+! domain: 26
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||asklink.com^
+||easytier.cn^
+||feihengip.com^
+||ganjiangvpn.com^
+||glxcc.net^
+||nlark.com^
+||oray.com^
+||oray.net^
+||orayer.com^
+||orayimg.com^
+||privateapi.xyz^
+||shimo.im^
+||shimonote.com^
+||smgv.cn^
+||sunlogin.net^
+||todesk.cn^
+||todesk.com^
+||tower.im^
+||tritoninfo.net^
+||woodo.cn^
+||worktile.com^
+||xedge.cc^
+||xiumi.us^
+||xiumius.com^
+||xn0.cc^
+||yuque.com^

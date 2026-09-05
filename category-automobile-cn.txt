@@ -1,0 +1,46 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-automobile-cn
+! domain: 39
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||12365auto.com^
+||1hai.cn^
+||autohome.com^
+||autohome.com.cn^
+||autohome.tel^
+||autoimg.cn^
+||autoimg.com.cn^
+||bitauto.com^
+||bitautoimg.com^
+||byd.com^
+||cheyisou.com^
+||dcarapi.com^
+||dcarimg.com^
+||dcarlive.com^
+||dcarstatic.com^
+||dcarvod.com^
+||dcdapp.com^
+||dongchedi.com^
+||dongchediapp.com^
+||geely.com^
+||guazi.com^
+||guazi.net^
+||guazistatic.com^
+||gwm.com.cn^
+||gzurl.cn^
+||izuche.com^
+||izuchebao.com^
+||lixiang.com^
+||nio.cn^
+||nio.com^
+||niohome.com^
+||wkzuche.com^
+||xiaopeng.com^
+||yccdn.com^
+||yiche.com^
+||zeekrgroup.com^
+||zeekrlife.com^
+||zuche.com^
+||zuchecdn.com^

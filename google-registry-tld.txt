@@ -1,0 +1,27 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/google-registry-tld
+! domain: 20
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||app^
+||boo^
+||dad^
+||day^
+||dev^
+||esq^
+||foo^
+||how^
+||ing^
+||meme^
+||mov^
+||new^
+||nexus^
+||page^
+||phd^
+||prof^
+||rsvp^
+||soy^
+||xn--q9jyb4c^
+||zip^

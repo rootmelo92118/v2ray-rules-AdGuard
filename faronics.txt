@@ -1,0 +1,25 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/faronics
+! domain: 17
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||clickedu.co.uk^
+||deepfreeze.co.uk^
+||deepfreeze.com^
+||deepfreeze.com.br^
+||deepfreeze.eu^
+||deepfreeze.net^
+||deepfreeze.tech^
+||faronics.ca^
+||faronics.co.uk^
+||faronics.com^
+||faronics.com.au^
+||faronics.com.sg^
+||faronics.eu^
+||faronics.tech^
+||faronicslabs.com^
+||faronicswise.co.uk^
+||faronicswise.com^
+|faronics.kayako.com^
