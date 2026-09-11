@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/farfetch
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||farfetch-apps.com^
+||farfetch-contents.com^
+||farfetch.cn^
+||farfetch.com^
+||farfetch.com.cn^
+||farfetch.net^
+||farfetch.net.cn^
+||fflnk.net^

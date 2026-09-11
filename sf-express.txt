@@ -1,0 +1,22 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/sf-express
+! domain: 15
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||feng1.com^
+||ibobscs.com^
+||rongechain.com^
+||sf-airlines.com^
+||sf-cityrush.com^
+||sf-express.com^
+||sf-financial.com^
+||sf-international.com^
+||sf-saas.com^
+||sf-tech.com.cn^
+||sf.cn^
+||sfbuy.com^
+||sfcar.hk^
+||sffix.cn^
+||sfgy.org^

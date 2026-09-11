@@ -1,0 +1,25 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/singtaonewscorp
+! domain: 18
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||bastillepost.com^
+||easttouch.com.hk^
+||eastweek.com.hk^
+||eduplus.hk^
+||headlinejobs.hk^
+||hkheadline.com^
+||jobmarket.com.hk^
+||my-magazine.me^
+||pcmarket.com.hk^
+||sing68.com^
+||singtao.com^
+||singtaobooks.com^
+||singtaola.com^
+||singtaonewscorp.com^
+||singtaoopo.com^
+||singtaousa.com^
+||stheadline.com^
+||thestandard.com.hk^

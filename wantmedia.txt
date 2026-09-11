@@ -1,0 +1,21 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/wantmedia
+! domain: 14
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||benliton.com^
+||chinatimes.com^
+||chinatimes.com.tw^
+||ctee.com.tw^
+||ctitv.com.tw^
+||ctv.com.tw^
+||ctwant.com^
+||infotimes.com.tw^
+||lecoin.cc^
+||loveparents.org^
+||superstation.com.tw^
+||want-media.com^
+||wantblogger.com^
+||zwtvusa.com^

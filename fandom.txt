@@ -1,0 +1,19 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/fandom
+! domain: 11
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||cortexrpg.com^
+||cursecdn.com^
+||dndbeyond.com^
+||fanatical.com^
+||fandom.com^
+||futhead.com^
+||gamepedia.com^
+||muthead.com^
+||wikia.com^
+||wikia.nocookie.net^
+||wikia.org^
+|fandom.zendesk.com^
