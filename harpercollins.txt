@@ -1,0 +1,27 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/harpercollins
+! domain: 20
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||bookclubgirl.com^
+||collins.co.uk^
+||collins.in^
+||egmontbooks.co.uk^
+||epicreads.com^
+||harperacademic.com^
+||harperapps.com^
+||harpercollins.ca^
+||harpercollins.co.in^
+||harpercollins.co.uk^
+||harpercollins.com^
+||harpercollins.com.au^
+||harpercollinsadvantage.com^
+||harpercollinschildrensbooks.co.uk^
+||harpercollinschristian.com^
+||harpercollinsspeakersbureau.com^
+||hcpdts.com^
+||librarylovefest.com^
+||natgeokidsbooks.co.uk^
+||shelfstuff.com^

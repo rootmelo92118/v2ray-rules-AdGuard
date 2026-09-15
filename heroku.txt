@@ -1,0 +1,19 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/heroku
+! domain: 12
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||codei.sh^
+||codeish.co^
+||codeish.io^
+||heroku-app.com^
+||heroku-charge.com^
+||heroku.co^
+||heroku.com^
+||heroku.me^
+||herokuapp.com^
+||herokucdn.com^
+||herokucharge.com^
+||herokussl.com^
