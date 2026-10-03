@@ -1,0 +1,24 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/citic
+! domain: 17
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||cfc108.com^
+||chinaamc.com^
+||citic^
+||citic-prudential.com.cn^
+||citicbank.com^
+||citiccapital.com^
+||citiciam.com^
+||citicifh.com^
+||citicprufunds.com.cn^
+||citics.com.hk^
+||citicsf.com^
+||clsa.com^
+||cncbinternational.com^
+||csc108.com^
+||csci.hk^
+||ecitic.com^
+||xn--fiq64b^
