@@ -1,0 +1,14 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-telemetry
+# domain: 2
+# full: 4
+# keyword: 0
+# regexp: 0 (not in rule-set)
+
+
+payload:
+  - DOMAIN-SUFFIX,cafe.github.com
+  - DOMAIN-SUFFIX,collector.github.com
+  - DOMAIN,copilot-telemetry-service.githubusercontent.com
+  - DOMAIN,copilot-telemetry.githubusercontent.com
+  - DOMAIN,incoming-telemetry.thunderbird.net
+  - DOMAIN,incoming.telemetry.mozilla.org
