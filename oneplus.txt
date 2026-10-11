@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/oneplus
+! domain: 7
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||h2os.com^
+||oneplus.cn^
+||oneplus.com^
+||oneplus.net^
+||oneplusbbs.com^
+||oneplusmobile.com^
+||opstatics.com^
+|community.oneplus.com^

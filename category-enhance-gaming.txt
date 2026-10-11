@@ -1,0 +1,25 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-enhance-gaming
+! domain: 18
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||battleye.com^
+||bluestacks.com^
+||fflogs.com^
+||heavenlywind.cc^
+||ldmnq.com^
+||lsplayer.com^
+||maa.plus^
+||playcover.io^
+||playcover.workers.dev^
+||poi.moe^
+||prts.plus^
+||rpglogs.cn^
+||rpglogs.com^
+||steampp.net^
+||thetrackernetwork.com^
+||tracker.gg^
+||tracker.network^
+||yeshen.com^
