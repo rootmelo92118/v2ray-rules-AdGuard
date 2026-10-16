@@ -1,0 +1,41 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/category-medicine-ru
+! domain: 34
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||apteka-april.ru^
+||apteka.ru^
+||aptekiplus.ru^
+||b17.ru^
+||emias.info^
+||emias.mos.ru^
+||emias.ru^
+||farmlend.ru^
+||gorzdrav.org^
+||gorzdrav.spb.ru^
+||klinikabudzdorov.ru^
+||medsi-premium.ru^
+||medsi.com^
+||medsi.pro^
+||medsi.ru^
+||megapteka.ru^
+||mgfoms.ru^
+||mofoms.ru^
+||mosgorzdrav.ru^
+||oms.karelia.ru^
+||planetazdorovo.ru^
+||polyclinika.ru^
+||pz.help^
+||reaviz.com^
+||reaviz.ru^
+||reso-med.com^
+||reso-med.ru^
+||smartmed.pro^
+||spboms.ru^
+||stolichki.ru^
+||uteka.ru^
+||vipmed.ru^
+||zdravcity.ru^
+||zub.ru^

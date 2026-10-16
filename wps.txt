@@ -1,0 +1,20 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/wps
+! domain: 13
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||51dzt.com^
+||docer.com^
+||iciba.com^
+||kdocs.cn^
+||kimxz.com^
+||papocket.com^
+||qwps.cn^
+||wps.cn^
+||wps.com^
+||wpscdn.cn^
+||wpscdn.com^
+||wpsmail.net^
+||wpspdf.cn^
