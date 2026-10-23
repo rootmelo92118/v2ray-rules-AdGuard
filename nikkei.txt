@@ -1,0 +1,13 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/nikkei
+! domain: 6
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||nikkei-cnbc.co.jp^
+||nikkei.co.jp^
+||nikkei.com^
+||nikkei.jp^
+||nikkei4946.com^
+||nikkeibp.co.jp^

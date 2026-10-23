@@ -1,0 +1,26 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/ok
+! domain: 17
+! full: 2
+! keyword: 0
+! regexp: 0
+
+
+||apiok.ru^
+||insideok.ru^
+||odkl.ru^
+||odnoklasniki.by^
+||odnoklasniki.ua^
+||odnoklassniki.am^
+||odnoklassniki.by^
+||odnoklassniki.co.ee^
+||odnoklassniki.eu^
+||odnoklassniki.lv^
+||odnoklassniki.ru^
+||odnoklassniki.tj^
+||ok.me^
+||ok.ru^
+||okcdn.ru^
+||okl.lt^
+||oktech.ru^
+|st-ok-pts.cdn-vk.ru^
+|st-ok.cdn-vk.ru^
