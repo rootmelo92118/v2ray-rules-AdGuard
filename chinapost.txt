@@ -1,0 +1,26 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/chinapost
+! domain: 19
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||11183.com.cn^
+||11185.cn^
+||chinapost-life.com^
+||chinapost.cn^
+||chinapost.com.cn^
+||chinapostdaily.com.cn^
+||chinapostnews.cn^
+||chinapostnews.com.cn^
+||chnppmuseum.com^
+||cnpsec.com^
+||cptu.cn^
+||cptu.org.cn^
+||ctvpost.com^
+||ems.com.cn^
+||postmail.cn^
+||postoa.com.cn^
+||psbc.com^
+||ule.com^
+||ulecdn.com^
