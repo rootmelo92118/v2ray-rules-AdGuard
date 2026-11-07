@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/qnap
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||mycloudnas.com^
+||myqnapcloud.cn^
+||myqnapcloud.com^
+||qlink.to^
+||qlinkto.cn^
+||qnap.com^
+||qnap.com.cn^
+||qnapsupport.net^
