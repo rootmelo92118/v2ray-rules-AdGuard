@@ -1,0 +1,15 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/vivo
+! domain: 8
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||blueos.com.cn^
+||budingscan.com^
+||iqoo.com^
+||vivo.cn^
+||vivo.com^
+||vivo.com.cn^
+||vivoglobal.com^
+||vvstc.com^

@@ -1,0 +1,14 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/espressif
+! domain: 7
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||esp32.com^
+||esp8266.cn^
+||esp8266.com.cn^
+||esp8266.com^
+||espressif.cn^
+||espressif.com.cn^
+||espressif.com^
