@@ -1,0 +1,23 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/bybit
+! domain: 14
+! full: 2
+! keyword: 0
+! regexp: 0
+
+
+||byabcde.com^
+||byapis.com^
+||byapps.net^
+||bybdc6.com^
+||bybit-global.com^
+||bybit.biz^
+||bybit.cloud^
+||bybit.com^
+||bybitglobal.com^
+||bycbe.com^
+||bycsi.com^
+||byd3c3.com^
+||bymj.io^
+||bytick.com^
+|bybit-exchange.github.io^
+|bybit.ada.support^

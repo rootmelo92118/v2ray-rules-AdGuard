@@ -1,0 +1,25 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/hypergryph
+! domain: 18
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||arknights.com^
+||arknights.com.cn^
+||gryphline.cn^
+||gryphline.com.cn^
+||gryphline.com^
+||gryphline.net^
+||hg-cdn.com^
+||hgto.cc^
+||hycdn.cn^
+||hycdn.com^
+||hypergryph.cn^
+||hypergryph.com^
+||hypergryph.com.cn^
+||hypergryph.net^
+||octavedge.com^
+||skland.com^
+||skland.net^
+||skport.com^
