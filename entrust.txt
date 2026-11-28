@@ -1,0 +1,17 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/entrust
+! domain: 9
+! full: 1
+! keyword: 0
+! regexp: 0
+
+
+||affirmtrust.com^
+||atos.net^
+||certificat2.com^
+||entrust.cn^
+||entrust.com^
+||entrust.net^
+||entrustdatacard.com^
+||myatos.net^
+||trendmicro.com^
+|www.entrust.cn^

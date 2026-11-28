@@ -1,0 +1,20 @@
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/xunlei
+! domain: 13
+! full: 0
+! keyword: 0
+! regexp: 0
+
+
+||00cdn.com^
+||88cdn.com^
+||8uri.cn^
+||guangyacdn.com^
+||guangyapan.com^
+||kanimg.com^
+||p2cdn.com^
+||sandai.net^
+||thundercdn.com^
+||thunderurl.com^
+||xunlei.com^
+||xycdn.com^
+||xycloud.com^
